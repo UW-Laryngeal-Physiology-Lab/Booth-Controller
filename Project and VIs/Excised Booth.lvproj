@@ -827,10 +827,10 @@
 				<Property Name="DistPart[1].productName" Type="Str">NI-DAQmx Runtime 19.5</Property>
 				<Property Name="DistPart[1].upgradeCode" Type="Str">{923C9CD5-A0D8-4147-9A8D-998780E30763}</Property>
 				<Property Name="DistPart[2].flavorID" Type="Str">DefaultFull</Property>
-				<Property Name="DistPart[2].productID" Type="Str">{69781499-B643-4C5B-8B02-928DE3BA1DCD}</Property>
-				<Property Name="DistPart[2].productName" Type="Str">NI LabVIEW Runtime 2020 SP1 (64-bit)</Property>
+				<Property Name="DistPart[2].productID" Type="Str">{6B440D80-3B0D-43B2-8A06-E2E939AA1006}</Property>
+				<Property Name="DistPart[2].productName" Type="Str">NI LabVIEW Runtime 2020 SP1</Property>
 				<Property Name="DistPart[2].SoftDep[0].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[2].SoftDep[0].productName" Type="Str">NI ActiveX Container (64-bit)</Property>
+				<Property Name="DistPart[2].SoftDep[0].productName" Type="Str">NI ActiveX Container</Property>
 				<Property Name="DistPart[2].SoftDep[0].upgradeCode" Type="Str">{1038A887-23E1-4289-B0BD-0C4B83C6BA21}</Property>
 				<Property Name="DistPart[2].SoftDep[1].exclude" Type="Bool">false</Property>
 				<Property Name="DistPart[2].SoftDep[1].productName" Type="Str">NI Deployment Framework 2020</Property>
@@ -851,7 +851,7 @@
 				<Property Name="DistPart[2].SoftDep[6].productName" Type="Str">NI TDM Streaming 19.0</Property>
 				<Property Name="DistPart[2].SoftDep[6].upgradeCode" Type="Str">{4CD11BE6-6BB7-4082-8A27-C13771BC309B}</Property>
 				<Property Name="DistPart[2].SoftDepCount" Type="Int">7</Property>
-				<Property Name="DistPart[2].upgradeCode" Type="Str">{9A9FE130-6C4C-498B-A054-CEB195F36BB4}</Property>
+				<Property Name="DistPart[2].upgradeCode" Type="Str">{D84FC73F-D1E0-4C05-A30C-DB882CD1ABD8}</Property>
 				<Property Name="DistPartCount" Type="Int">3</Property>
 				<Property Name="INST_buildLocation" Type="Path">../builds/Booth Installer</Property>
 				<Property Name="INST_buildLocation.type" Type="Str">relativeToCommon</Property>
@@ -860,7 +860,7 @@
 				<Property Name="INST_installerName" Type="Str">setup.exe</Property>
 				<Property Name="INST_productName" Type="Str">Excised Booth Controller</Property>
 				<Property Name="INST_productVersion" Type="Str">2.0.0</Property>
-				<Property Name="InstSpecBitness" Type="Str">64-bit</Property>
+				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">20018000</Property>
 				<Property Name="MSI_arpCompany" Type="Str">UW Laryngeal Physiology Lab</Property>
 				<Property Name="MSI_arpContact" Type="Str">Austin Scholp</Property>
