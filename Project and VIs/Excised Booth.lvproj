@@ -744,6 +744,7 @@
 			<Item Name="First-After.ctl" Type="VI" URL="../Controls/First-After.ctl"/>
 			<Item Name="Save Data States.ctl" Type="VI" URL="../Controls/Save Data States.ctl"/>
 			<Item Name="Save Data Cluster.ctl" Type="VI" URL="../Controls/Save Data Cluster.ctl"/>
+			<Item Name="matscript.dll" Type="Document"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Excised Booth Controller" Type="EXE">
