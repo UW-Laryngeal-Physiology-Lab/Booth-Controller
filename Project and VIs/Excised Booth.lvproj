@@ -744,7 +744,6 @@
 			<Item Name="First-After.ctl" Type="VI" URL="../Controls/First-After.ctl"/>
 			<Item Name="Save Data States.ctl" Type="VI" URL="../Controls/Save Data States.ctl"/>
 			<Item Name="Save Data Cluster.ctl" Type="VI" URL="../Controls/Save Data Cluster.ctl"/>
-			<Item Name="matscript.dll" Type="Document"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Excised Booth Controller" Type="EXE">
@@ -775,7 +774,7 @@
 				<Property Name="Destination[1].path" Type="Path">../Executable File/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/UW Crest.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{5CFEC970-834A-4209-AF28-F66FAA9CB0E4}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{ECEB908C-8D69-4BCD-8927-E24A62045DCD}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.depDestIndex" Type="Int">0</Property>
@@ -819,55 +818,20 @@
 				<Property Name="Destination[0].tag" Type="Str">{7B9562AA-D533-4265-B69C-735338905490}</Property>
 				<Property Name="Destination[0].type" Type="Str">userFolder</Property>
 				<Property Name="DestinationCount" Type="Int">1</Property>
-				<Property Name="DistPart[0].flavorID" Type="Str">_full_</Property>
-				<Property Name="DistPart[0].productID" Type="Str">{013D2F9F-6833-4763-965E-B49B16A4F9E1}</Property>
-				<Property Name="DistPart[0].productName" Type="Str">NI USI 18.5.5</Property>
-				<Property Name="DistPart[0].upgradeCode" Type="Str">{D1EDC484-7B17-11D7-83CE-00C0F03EBEBE}</Property>
-				<Property Name="DistPart[1].flavorID" Type="Str">_full_</Property>
-				<Property Name="DistPart[1].productID" Type="Str">{175DA080-55C0-420A-B44D-780B8D4E6AA8}</Property>
-				<Property Name="DistPart[1].productName" Type="Str">NI-DAQmx Runtime 19.5</Property>
-				<Property Name="DistPart[1].upgradeCode" Type="Str">{923C9CD5-A0D8-4147-9A8D-998780E30763}</Property>
-				<Property Name="DistPart[2].flavorID" Type="Str">DefaultFull</Property>
-				<Property Name="DistPart[2].productID" Type="Str">{69781499-B643-4C5B-8B02-928DE3BA1DCD}</Property>
-				<Property Name="DistPart[2].productName" Type="Str">NI LabVIEW Runtime 2020 SP1 (64-bit)</Property>
-				<Property Name="DistPart[2].SoftDep[0].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[2].SoftDep[0].productName" Type="Str">NI ActiveX Container (64-bit)</Property>
-				<Property Name="DistPart[2].SoftDep[0].upgradeCode" Type="Str">{1038A887-23E1-4289-B0BD-0C4B83C6BA21}</Property>
-				<Property Name="DistPart[2].SoftDep[1].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[2].SoftDep[1].productName" Type="Str">NI Deployment Framework 2020</Property>
-				<Property Name="DistPart[2].SoftDep[1].upgradeCode" Type="Str">{838942E4-B73C-492E-81A3-AA1E291FD0DC}</Property>
-				<Property Name="DistPart[2].SoftDep[2].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[2].SoftDep[2].productName" Type="Str">NI Logos 20.0</Property>
-				<Property Name="DistPart[2].SoftDep[2].upgradeCode" Type="Str">{5E4A4CE3-4D06-11D4-8B22-006008C16337}</Property>
-				<Property Name="DistPart[2].SoftDep[3].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[2].SoftDep[3].productName" Type="Str">NI mDNS Responder 19.0</Property>
-				<Property Name="DistPart[2].SoftDep[3].upgradeCode" Type="Str">{9607874B-4BB3-42CB-B450-A2F5EF60BA3B}</Property>
-				<Property Name="DistPart[2].SoftDep[4].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[2].SoftDep[4].productName" Type="Str">Math Kernel Libraries 2017</Property>
-				<Property Name="DistPart[2].SoftDep[4].upgradeCode" Type="Str">{699C1AC5-2CF2-4745-9674-B19536EBA8A3}</Property>
-				<Property Name="DistPart[2].SoftDep[5].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[2].SoftDep[5].productName" Type="Str">NI VC2015 Runtime</Property>
-				<Property Name="DistPart[2].SoftDep[5].upgradeCode" Type="Str">{D42E7BAE-6589-4570-B6A3-3E28889392E7}</Property>
-				<Property Name="DistPart[2].SoftDep[6].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[2].SoftDep[6].productName" Type="Str">NI TDM Streaming 19.0</Property>
-				<Property Name="DistPart[2].SoftDep[6].upgradeCode" Type="Str">{4CD11BE6-6BB7-4082-8A27-C13771BC309B}</Property>
-				<Property Name="DistPart[2].SoftDepCount" Type="Int">7</Property>
-				<Property Name="DistPart[2].upgradeCode" Type="Str">{9A9FE130-6C4C-498B-A054-CEB195F36BB4}</Property>
-				<Property Name="DistPartCount" Type="Int">3</Property>
-				<Property Name="INST_buildLocation" Type="Path">../builds/Booth Installer</Property>
+				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
+				<Property Name="INST_buildLocation" Type="Path">../Booth Installer</Property>
 				<Property Name="INST_buildLocation.type" Type="Str">relativeToCommon</Property>
 				<Property Name="INST_buildSpecName" Type="Str">Booth Installer</Property>
 				<Property Name="INST_defaultDir" Type="Str">{7B9562AA-D533-4265-B69C-735338905490}</Property>
 				<Property Name="INST_installerName" Type="Str">setup.exe</Property>
 				<Property Name="INST_productName" Type="Str">Excised Booth Controller</Property>
-				<Property Name="INST_productVersion" Type="Str">2.0.0</Property>
-				<Property Name="InstSpecBitness" Type="Str">64-bit</Property>
+				<Property Name="INST_productVersion" Type="Str">2.0.1</Property>
+				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">20018000</Property>
 				<Property Name="MSI_arpCompany" Type="Str">UW Laryngeal Physiology Lab</Property>
 				<Property Name="MSI_arpContact" Type="Str">Austin Scholp</Property>
 				<Property Name="MSI_arpPhone" Type="Str">815-474-5403</Property>
 				<Property Name="MSI_arpURL" Type="Str">https://www.surgery.wisc.edu/research/researchers-labs/jiang/</Property>
-				<Property Name="MSI_autoselectDrivers" Type="Bool">true</Property>
 				<Property Name="MSI_bannerImageID" Type="Ref">/My Computer/Voicelab Stamp Banner.bmp</Property>
 				<Property Name="MSI_distID" Type="Str">{F292A240-376F-495A-93C3-EB46C20C1FE1}</Property>
 				<Property Name="MSI_hideNonRuntimes" Type="Bool">true</Property>
@@ -881,7 +845,7 @@
 				<Property Name="RegDestCount" Type="Int">1</Property>
 				<Property Name="Source[0].dest" Type="Str">{7B9562AA-D533-4265-B69C-735338905490}</Property>
 				<Property Name="Source[0].File[0].dest" Type="Str">{7B9562AA-D533-4265-B69C-735338905490}</Property>
-				<Property Name="Source[0].File[0].name" Type="Str">EBooth19.exe</Property>
+				<Property Name="Source[0].File[0].name" Type="Str">ExisedBooth21.exe</Property>
 				<Property Name="Source[0].File[0].tag" Type="Str">{0304D19F-FAD5-4B55-809D-05A994EC86D9}</Property>
 				<Property Name="Source[0].FileCount" Type="Int">1</Property>
 				<Property Name="Source[0].name" Type="Str">Excised Booth Controller</Property>
