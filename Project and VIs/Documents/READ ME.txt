@@ -1,3 +1,0 @@
-This is an updated Booth Collection program. To operate, first open Excised Both.lvproj.From there you can open and run the Master Controler.vi
-
-From the controller you can run a calibration program, collect booth data, and convert audio data to WAV files.
